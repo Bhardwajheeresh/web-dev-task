@@ -1,0 +1,62 @@
+.main-container {
+        border: 1px solid ;
+        height: 1250px;
+        position: relative;
+        
+      }
+
+      button {
+        
+        position: absolute;
+        left: 50%;
+        transform: translateX(-40%);
+        color: white;
+        background-color: rgb(233, 60, 190);
+        margin: 0.5%;
+      }
+      
+
+h2 {
+    text-align: center;
+    
+}
+
+hr {
+    width: 20rem;
+    margin: 20px auto;
+    border-bottom: 1px dotted #000;
+    color: rgb(233, 60, 190);
+
+
+}
+
+.members {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.team-member {
+    margin: 8px;
+    transition: all .3s ease;
+    cursor: pointer;
+}
+
+
+.team-member:hover {
+    transform: scale(1.1);
+}
+
+img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+h4,
+p {
+    text-align: center;
+    font-size: 12px;
+    margin: 7px;
+}
